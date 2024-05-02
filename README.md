@@ -1,4 +1,6 @@
-# anchor-go
+# anchor-go (with floats)
+
+this fork simply added f32 and f64 support to [anchor-go](https://github.com/gagliardetto/anchor-go)
 
 ![logo](logo.png)
 
@@ -51,8 +53,7 @@ anchor idl parse -f candy-machine/program/src/lib.rs -o nft_candy_machine_v2.jso
 anchor-go --src=nft_candy_machine_v2.json
 ```
 
-Note
-----
+## Note
 
 - anchor-go is in active development, so all APIs are subject to change.
 - This code is unaudited. Use at your own risk.
